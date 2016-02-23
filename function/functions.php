@@ -1,6 +1,6 @@
 <?php  
 
-$con=mysqli_connect("localhost","root","","tugas2");
+include ("admin_area/includes/db.php");
 
 function getCats(){
 	global $con;
